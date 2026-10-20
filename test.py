@@ -1,10 +1,11 @@
 import os
-
 import numpy as np
 from PIL import Image
 from keras.models import load_model
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
+
+
 
 model_path = "D:\\lenovo file new\\Project\\first_installation\\controllers\\Concatination_controller\\line_following_model_1_more_accurate_dataset.h5"
 model = load_model(model_path)
